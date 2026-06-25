@@ -82,37 +82,37 @@
                 </div>
                 <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-accent focus:outline-none">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-accent focus:outline-none p-2 rounded-lg hover:bg-gray-100 transition" aria-label="切換選單">
                         <i class="fa-solid fa-bars text-2xl"></i>
                     </button>
                 </div>
             </div>
         </div>
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg">
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg transition-all duration-300">
             <div class="px-4 pt-2 pb-6 space-y-2">
-                <a href="#services" class="block px-3 py-3 text-gray-600 hover:bg-accent-lightest hover:text-accent rounded-md">服務內容</a>
-                <a href="#process" class="block px-3 py-3 text-gray-600 hover:bg-accent-lightest hover:text-accent rounded-md">出版流程</a>
-                <a href="#channels" class="block px-3 py-3 text-gray-600 hover:bg-accent-lightest hover:text-accent rounded-md">經銷通路</a>
-                <a href="#faq" class="block px-3 py-3 text-gray-600 hover:bg-accent-lightest hover:text-accent rounded-md">常見問題</a>
-                <a href="#contact" class="block px-3 py-3 mt-4 text-center bg-accent text-white rounded-md font-medium">免費諮詢</a>
+                <a href="#services" class="block px-3 py-3 text-gray-600 hover:bg-accent-lightest hover:text-accent rounded-md font-medium">服務內容</a>
+                <a href="#process" class="block px-3 py-3 text-gray-600 hover:bg-accent-lightest hover:text-accent rounded-md font-medium">出版流程</a>
+                <a href="#channels" class="block px-3 py-3 text-gray-600 hover:bg-accent-lightest hover:text-accent rounded-md font-medium">經銷通路</a>
+                <a href="#faq" class="block px-3 py-3 text-gray-600 hover:bg-accent-lightest hover:text-accent rounded-md font-medium">常見問題</a>
+                <a href="#contact" class="block px-3 py-3 mt-4 text-center bg-accent text-white rounded-md font-bold transition hover:bg-accent-light">免費諮詢</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero-bg min-h-[90vh] flex items-center pt-20 relative overflow-hidden">
+    <section class="hero-bg min-h-[90vh] flex items-center pt-24 pb-12 relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/90"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
             <div class="max-w-3xl">
                 <div class="inline-block px-4 py-1.5 rounded-full border border-accent/50 bg-accent/10 text-accent-lightest text-sm font-medium mb-6 backdrop-blur-sm">
-                    100% 版權歸作者所有・專屬出版顧問
+                    100% 著作權歸作者所有・專屬出版顧問
                 </div>
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight mb-6">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight mb-6">
                     實現您的出版夢想，<br/>
                     <span class="text-accent-light">將心血化為傳世經典。</span>
                 </h1>
-                <p class="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl">
+                <p class="text-base sm:text-lg md:text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl">
                     無論是個人回憶錄、專業學術論著、商業理財心得，還是精彩的小說創作。我們提供從<span class="text-white font-medium">編輯排版、美術設計、印刷到經銷</span>的一條龍自費出版服務。
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
@@ -128,7 +128,7 @@
     </section>
 
     <!-- Section 1: 服務內容 (Services) -->
-    <section id="services" class="py-24 bg-paper relative">
+    <section id="services" class="py-20 md:py-24 bg-paper relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-sm font-bold tracking-widest text-accent uppercase mb-2">Our Services</h2>
@@ -136,17 +136,17 @@
                 <p class="text-gray-600 text-lg">量身打造最適合您的出版方案，為您的心血結晶提供最專業的編輯、設計與發行服務。</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 <!-- Service 1 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
                     <div class="w-14 h-14 bg-accent-lightest rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition duration-300">
                         <i class="fa-solid fa-highlighter text-2xl text-accent"></i>
                     </div>
                     <h4 class="text-xl font-bold text-primary mb-3 font-serif">專業編輯與潤校</h4>
-                    <p class="text-gray-600 leading-relaxed">資深主編為您的書稿進行錯字校對、語句潤飾、段落重組，確保文字流暢並符合出版水準。</p>
+                    <p class="text-gray-600 leading-relaxed">專業編輯為您的書稿進行錯字校對、語句潤飾、段落重組，確保文字流暢並符合出版水準。</p>
                 </div>
                 <!-- Service 2 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
                     <div class="w-14 h-14 bg-accent-lightest rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition duration-300">
                         <i class="fa-solid fa-object-group text-2xl text-accent"></i>
                     </div>
@@ -154,15 +154,15 @@
                     <p class="text-gray-600 leading-relaxed">從吸睛的封面設計到舒適的內頁版型，依據書籍調性打造最具質感的視覺呈現，讓讀者愛不釋手。</p>
                 </div>
                 <!-- Service 3 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
                     <div class="w-14 h-14 bg-accent-lightest rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition duration-300">
                         <i class="fa-solid fa-barcode text-2xl text-accent"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-primary mb-3 font-serif">ISBN與版權申請</h4>
-                    <p class="text-gray-600 leading-relaxed">代辦國家圖書館 ISBN 國際標準書號、CIP 預編書目，以及處理相關版權宣告，讓出版合法合規。</p>
+                    <h4 class="text-xl font-bold text-primary mb-3 font-serif">ISBN申請</h4>
+                    <p class="text-gray-600 leading-relaxed">代辦國家圖書館 ISBN 國際標準書號，讓出版合法合規。</p>
                 </div>
                 <!-- Service 4 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
                     <div class="w-14 h-14 bg-accent-lightest rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition duration-300">
                         <i class="fa-solid fa-print text-2xl text-accent"></i>
                     </div>
@@ -170,7 +170,7 @@
                     <p class="text-gray-600 leading-relaxed">嚴選紙張材質，並於專業印刷廠進行打樣與大量印製，品質嚴格把關。</p>
                 </div>
                 <!-- Service 5 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
                     <div class="w-14 h-14 bg-accent-lightest rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition duration-300">
                         <i class="fa-solid fa-truck-fast text-2xl text-accent"></i>
                     </div>
@@ -178,7 +178,7 @@
                     <p class="text-gray-600 leading-relaxed">將書籍上架至各大實體連鎖書店與網路書店，並提供整合行銷服務。</p>
                 </div>
                 <!-- Service 6 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 group">
                     <div class="w-14 h-14 bg-accent-lightest rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition duration-300">
                         <i class="fa-solid fa-book text-2xl text-accent"></i>
                     </div>
@@ -190,7 +190,7 @@
     </section>
 
     <!-- Section 2: 出版流程 (Process) -->
-    <section id="process" class="py-24 bg-white relative overflow-hidden">
+    <section id="process" class="py-20 md:py-24 bg-white relative overflow-hidden">
         <!-- Decorative elements -->
         <div class="absolute top-0 right-0 w-64 h-64 bg-accent-lightest rounded-full mix-blend-multiply filter blur-3xl opacity-50 transform translate-x-1/2 -translate-y-1/2"></div>
         <div class="absolute bottom-0 left-0 w-80 h-80 bg-blue-50 rounded-full mix-blend-multiply filter blur-3xl opacity-50 transform -translate-x-1/2 translate-y-1/2"></div>
@@ -211,37 +211,37 @@
                     <div class="flex flex-col items-center text-center relative">
                         <div class="w-16 h-16 bg-white border-4 border-accent text-accent rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">1</div>
                         <h4 class="font-bold text-lg text-primary mb-2">免費諮詢</h4>
-                        <p class="text-sm text-gray-500">確認您的出版目標、規格需求與預算評估。</p>
+                        <p class="text-sm text-gray-500 px-4 md:px-0">確認您的出版目標、規格需求與預算評估。</p>
                     </div>
                     <!-- Step 2 -->
                     <div class="flex flex-col items-center text-center relative mt-8 md:mt-0">
                         <div class="w-16 h-16 bg-white border-4 border-primary text-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">2</div>
                         <h4 class="font-bold text-lg text-primary mb-2">簽約企劃</h4>
-                        <p class="text-sm text-gray-500">擬定出版合約，制定詳細的時程表與企劃案。</p>
+                        <p class="text-sm text-gray-500 px-4 md:px-0">擬定出版合約，制定詳細的時程表與企劃案。</p>
                     </div>
                     <!-- Step 3 -->
                     <div class="flex flex-col items-center text-center relative mt-8 md:mt-0">
                         <div class="w-16 h-16 bg-white border-4 border-primary text-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">3</div>
                         <h4 class="font-bold text-lg text-primary mb-2">編輯潤校</h4>
-                        <p class="text-sm text-gray-500">進行內容編輯、校對或版面文字調整。</p>
+                        <p class="text-sm text-gray-500 px-4 md:px-0">進行內容編輯、校對或版面文字調整。</p>
                     </div>
                     <!-- Step 4 -->
                     <div class="flex flex-col items-center text-center relative mt-8 md:mt-0">
                         <div class="w-16 h-16 bg-white border-4 border-primary text-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">4</div>
                         <h4 class="font-bold text-lg text-primary mb-2">排版設計</h4>
-                        <p class="text-sm text-gray-500">封面提案與確認，內頁版型設計與圖文排版。</p>
+                        <p class="text-sm text-gray-500 px-4 md:px-0">封面提案與確認，內頁版型設計與圖文排版。</p>
                     </div>
                     <!-- Step 5 -->
                     <div class="flex flex-col items-center text-center relative mt-8 md:mt-0">
                         <div class="w-16 h-16 bg-white border-4 border-primary text-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg">5</div>
                         <h4 class="font-bold text-lg text-primary mb-2">定稿付印</h4>
-                        <p class="text-sm text-gray-500">作者進行最終確認，打樣核對後送交印刷廠。</p>
+                        <p class="text-sm text-gray-500 px-4 md:px-0">作者進行最終確認，打樣核對後送交印刷廠。</p>
                     </div>
                     <!-- Step 6 -->
                     <div class="flex flex-col items-center text-center relative mt-8 md:mt-0">
                         <div class="w-16 h-16 bg-accent text-white border-4 border-accent rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-[0_0_15px_rgba(217,119,6,0.5)]">6</div>
                         <h4 class="font-bold text-lg text-primary mb-2">上市發行</h4>
-                        <p class="text-sm text-gray-500">書籍入庫，鋪貨至各大通路並開始進行行銷。</p>
+                        <p class="text-sm text-gray-500 px-4 md:px-0">書籍入庫，鋪貨至各大通路並進行行銷。</p>
                     </div>
                 </div>
             </div>
@@ -249,47 +249,48 @@
     </section>
 
     <!-- Section 3: 經銷通路 (Distribution Channels) -->
-    <section id="channels" class="py-24 bg-paper">
+    <section id="channels" class="py-20 md:py-24 bg-paper">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row items-center gap-12">
-                <div class="md:w-1/3">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="w-full lg:w-1/3 text-center lg:text-left">
                     <h2 class="text-sm font-bold tracking-widest text-accent uppercase mb-2">Distribution</h2>
                     <h3 class="text-3xl font-serif font-bold text-primary mb-6">全台無縫接軌的<br/><span class="gradient-text">圖書經銷網絡</span></h3>
-                    <p class="text-gray-600 mb-6 leading-relaxed">
+                    <p class="text-gray-600 mb-6 leading-relaxed max-w-lg mx-auto lg:mx-0">
                         出版不只是印出來，我們具備專業的發行實力。您的著作將進入常規圖書發行體系，讓讀者輕易在實體及線上買到您的心血結晶。
                     </p>
-                    <ul class="space-y-3 text-gray-700 font-medium mb-8">
+                    <ul class="space-y-3 text-gray-700 font-medium mb-8 inline-block lg:block text-left">
                         <li class="flex items-center"><i class="fa-solid fa-check text-accent mr-3"></i> 實體書店上架與陳列</li>
                         <li class="flex items-center"><i class="fa-solid fa-check text-accent mr-3"></i> 網路書店銷售與建檔</li>
                         <li class="flex items-center"><i class="fa-solid fa-check text-accent mr-3"></i> 電子書平台上架 (EPUB)</li>
                     </ul>
                 </div>
                 
-                <div class="md:w-2/3 flex flex-wrap justify-center md:justify-start gap-4 lg:gap-6">
-                    <!-- Virtual Logos for Bookstores -->
-                    <!-- 博客來 -->
-                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center group hover:border-accent hover:shadow-md transition w-[calc(50%-8px)] sm:w-[calc(33.333%-16px)] max-w-[220px] flex-grow">
-                        <div class="w-12 h-12 bg-green-50 text-green-600 rounded-full flex items-center justify-center mb-3">
-                            <i class="fa-solid fa-desktop text-xl"></i>
+                <div class="w-full lg:w-2/3">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-6 w-full justify-center">
+                        <!-- 博客來 -->
+                        <div class="bg-white p-5 sm:p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center group hover:border-accent hover:shadow-md transition">
+                            <div class="w-12 h-12 bg-green-50 text-green-600 rounded-full flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-desktop text-xl"></i>
+                            </div>
+                            <span class="font-bold text-gray-800 text-sm sm:text-base">博客來</span>
+                            <span class="text-xs text-gray-400 mt-1">最大網路書店</span>
                         </div>
-                        <span class="font-bold text-gray-800">博客來</span>
-                        <span class="text-xs text-gray-400 mt-1">最大網路書店</span>
-                    </div>
-                    <!-- 誠品書店 -->
-                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center group hover:border-accent hover:shadow-md transition w-[calc(50%-8px)] sm:w-[calc(33.333%-16px)] max-w-[220px] flex-grow">
-                        <div class="w-12 h-12 bg-orange-50 text-orange-600 rounded-full flex items-center justify-center mb-3">
-                            <i class="fa-solid fa-store text-xl"></i>
+                        <!-- 誠品書店 -->
+                        <div class="bg-white p-5 sm:p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center group hover:border-accent hover:shadow-md transition">
+                            <div class="w-12 h-12 bg-orange-50 text-orange-600 rounded-full flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-store text-xl"></i>
+                            </div>
+                            <span class="font-bold text-gray-800 text-sm sm:text-base">誠品書店</span>
+                            <span class="text-xs text-gray-400 mt-1">實體與線上</span>
                         </div>
-                        <span class="font-bold text-gray-800">誠品書店</span>
-                        <span class="text-xs text-gray-400 mt-1">實體與線上</span>
-                    </div>
-                    <!-- PUBU 電子書城 -->
-                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center group hover:border-accent hover:shadow-md transition w-[calc(50%-8px)] sm:w-[calc(33.333%-16px)] max-w-[220px] flex-grow">
-                        <div class="w-12 h-12 bg-red-50 text-red-600 rounded-full flex items-center justify-center mb-3">
-                            <i class="fa-solid fa-globe text-xl"></i>
+                        <!-- PUBU 電子書城 -->
+                        <div class="bg-white p-5 sm:p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center group hover:border-accent hover:shadow-md transition col-span-2 sm:col-span-1">
+                            <div class="w-12 h-12 bg-red-50 text-red-600 rounded-full flex items-center justify-center mb-3 mx-auto">
+                                <i class="fa-solid fa-globe text-xl"></i>
+                            </div>
+                            <span class="font-bold text-gray-800 text-sm sm:text-base">PUBU 電子書城</span>
+                            <span class="text-xs text-gray-400 mt-1">國內知名平台</span>
                         </div>
-                        <span class="font-bold text-gray-800">PUBU 電子書城</span>
-                        <span class="text-xs text-gray-400 mt-1">國內知名平台</span>
                     </div>
                 </div>
             </div>
@@ -297,67 +298,67 @@
     </section>
 
     <!-- Section 4: 出版疑問 Q&A (FAQ) -->
-    <section id="faq" class="py-24 bg-white">
+    <section id="faq" class="py-20 md:py-24 bg-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-sm font-bold tracking-widest text-accent uppercase mb-2">FAQ</h2>
                 <h3 class="text-3xl md:text-4xl font-serif font-bold text-primary mb-4">出版常見疑問解答</h3>
-                <p class="text-gray-600 text-lg">第一次出版一定有很多疑惑，為您整理常見問題，幫助您釐清方向。</p>
+                <p class="text-gray-600 text-base sm:text-lg">第一次出版一定有很多疑惑，為您整理常見問題，幫助您釐清方向。</p>
             </div>
 
             <div class="space-y-4">
                 <!-- FAQ Item 1 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden transition-all duration-200 bg-white shadow-sm hover:shadow-md">
-                    <button class="faq-toggle w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
-                        <span class="font-bold text-lg text-primary">Q1. 出版一本書需要準備多少預算？</span>
-                        <i class="fa-solid fa-chevron-down text-accent transition-transform duration-300"></i>
+                    <button class="faq-toggle w-full px-5 sm:px-6 py-4 sm:py-5 text-left flex justify-between items-center focus:outline-none" style="min-height: 48px;">
+                        <span class="font-bold text-base sm:text-lg text-primary pr-4">Q1. 出版一本書需要準備多少預算？</span>
+                        <i class="fa-solid fa-chevron-down text-accent transition-transform duration-300 flex-shrink-0"></i>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                    <div class="faq-content hidden px-5 sm:px-6 pb-5 text-gray-600 text-sm sm:text-base leading-relaxed border-t border-gray-100 pt-4">
                         預算取決於您的需求範圍。若您已備齊文稿且校對完成，僅需排版與印刷，費用相對較低；若需要插畫設計或進階行銷服務，則會有對應的專業費用。一般自費出版專案預算約落在台幣 5 萬至 20 萬不等。歡迎聯絡我們進行免費評估報價。
                     </div>
                 </div>
 
                 <!-- FAQ Item 2 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden transition-all duration-200 bg-white shadow-sm hover:shadow-md">
-                    <button class="faq-toggle w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
-                        <span class="font-bold text-lg text-primary">Q2. 自費出版的書籍版權歸誰所有？</span>
-                        <i class="fa-solid fa-chevron-down text-accent transition-transform duration-300"></i>
+                    <button class="faq-toggle w-full px-5 sm:px-6 py-4 sm:py-5 text-left flex justify-between items-center focus:outline-none" style="min-height: 48px;">
+                        <span class="font-bold text-base sm:text-lg text-primary pr-4">Q2. 自費出版的書籍著作權歸誰所有？</span>
+                        <i class="fa-solid fa-chevron-down text-accent transition-transform duration-300 flex-shrink-0"></i>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
-                        這也是自費出版最大的優勢！透過我們進行自費出版，書籍的所有著作權與版權 <strong>100% 歸作者您本人所有</strong>。我們僅收取代工與經銷服務費用，後續書籍銷售的利潤也皆由您獲取絕大比例。
+                    <div class="faq-content hidden px-5 sm:px-6 pb-5 text-gray-600 text-sm sm:text-base leading-relaxed border-t border-gray-100 pt-4">
+                        這也是自費出版最大的優勢！透過我們進行自費出版，書籍的所有著作權 <strong>100% 歸作者您本人所有</strong>。我們僅收取代工與經銷服務費用，後續書籍銷售的利潤也皆由您獲取絕大比例。
                     </div>
                 </div>
 
                 <!-- FAQ Item 3 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden transition-all duration-200 bg-white shadow-sm hover:shadow-md">
-                    <button class="faq-toggle w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
-                        <span class="font-bold text-lg text-primary">Q3. 從簽約到書籍正式出版上市，大約需要多少時間？</span>
-                        <i class="fa-solid fa-chevron-down text-accent transition-transform duration-300"></i>
+                    <button class="faq-toggle w-full px-5 sm:px-6 py-4 sm:py-5 text-left flex justify-between items-center focus:outline-none" style="min-height: 48px;">
+                        <span class="font-bold text-base sm:text-lg text-primary pr-4">Q3. 從簽約到書籍正式出版上市，大約需要多少時間？</span>
+                        <i class="fa-solid fa-chevron-down text-accent transition-transform duration-300 flex-shrink-0"></i>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                    <div class="faq-content hidden px-5 sm:px-6 pb-5 text-gray-600 text-sm sm:text-base leading-relaxed border-t border-gray-100 pt-4">
                         出版時程會<strong>依據您的書籍內容</strong>（如字數多寡、插圖或照片數量）、排版複雜度以及校對往返次數而有所不同。在您與我們的出版顧問進行初步諮詢後，我們會為您量身規劃專屬的出版時程表，並在簽約前與您確認每個階段的具體時間，確保您的著作能以最完美的品質順利誕生。
                     </div>
                 </div>
 
                 <!-- FAQ Item 4 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden transition-all duration-200 bg-white shadow-sm hover:shadow-md">
-                    <button class="faq-toggle w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
-                        <span class="font-bold text-lg text-primary">Q4. 如果我的稿件還沒完全寫完，可以先諮詢嗎？</span>
-                        <i class="fa-solid fa-chevron-down text-accent transition-transform duration-300"></i>
+                    <button class="faq-toggle w-full px-5 sm:px-6 py-4 sm:py-5 text-left flex justify-between items-center focus:outline-none" style="min-height: 48px;">
+                        <span class="font-bold text-base sm:text-lg text-primary pr-4">Q4. 如果我的稿件還沒完全寫完，可以先諮詢嗎？</span>
+                        <i class="fa-solid fa-chevron-down text-accent transition-transform duration-300 flex-shrink-0"></i>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                    <div class="faq-content hidden px-5 sm:px-6 pb-5 text-gray-600 text-sm sm:text-base leading-relaxed border-t border-gray-100 pt-4">
                         當然可以！即使您的文稿還在撰寫階段，我們也非常歡迎您提前與我們諮詢。我們可以先為您評估未來的排版方向、預估成本，甚至提供一些寫作格式上的建議，讓您後續的作業更順利。
                     </div>
                 </div>
                 
                 <!-- FAQ Item 5 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden transition-all duration-200 bg-white shadow-sm hover:shadow-md">
-                    <button class="faq-toggle w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none">
-                        <span class="font-bold text-lg text-primary">Q5. 我印的書如果賣不完怎麼辦？會有倉儲費用嗎？</span>
-                        <i class="fa-solid fa-chevron-down text-accent transition-transform duration-300"></i>
+                    <button class="faq-toggle w-full px-5 sm:px-6 py-4 sm:py-5 text-left flex justify-between items-center focus:outline-none" style="min-height: 48px;">
+                        <span class="font-bold text-base sm:text-lg text-primary pr-4">Q5. 我印的書如果賣不完怎麼辦？會有倉儲費用嗎？</span>
+                        <i class="fa-solid fa-chevron-down text-accent transition-transform duration-300 flex-shrink-0"></i>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
-                        我們提供彈性的印刷方案。除了傳統的量產印刷（如 500 本、1000 本），我們也提供 <strong>POD（Print on Demand）按需列印</strong> 服務，有訂單才印製，達到零庫存的壓力。若選擇量產，合約內也會明定免收費的基礎倉儲期限。
+                    <div class="faq-content hidden px-5 sm:px-6 pb-5 text-gray-600 text-sm sm:text-base leading-relaxed border-t border-gray-100 pt-4">
+                        我們提供彈性的印刷方案。除了傳統的量產印刷（如 500 本、1000 本），我們也提供 <strong>POD（Print on Demand）按需列印</strong> 服務，有訂單才印製，達到零庫存的壓力。若選擇量產，依數量計算基礎倉儲費。
                     </div>
                 </div>
             </div>
@@ -365,17 +366,17 @@
     </section>
 
     <!-- CTA & Contact Section -->
-    <section id="contact" class="py-20 relative bg-primary">
+    <section id="contact" class="py-16 md:py-20 relative bg-primary">
         <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             <h2 class="text-3xl md:text-5xl font-serif font-bold text-white mb-6">準備好出版您的第一本書了嗎？</h2>
-            <p class="text-gray-300 text-lg mb-10">不論您目前進度如何，填寫表單或直接來電，我們的出版顧問將免費為您提供專屬建議。</p>
+            <p class="text-gray-300 text-base sm:text-lg mb-10 max-w-2xl mx-auto">不論您目前進度如何，填寫表單或直接來電，我們的出版顧問將免費為您提供專屬建議。</p>
             
-            <div class="bg-white rounded-2xl p-10 shadow-2xl text-center max-w-2xl mx-auto">
+            <div class="bg-white rounded-2xl p-6 sm:p-10 shadow-2xl text-center max-w-2xl mx-auto">
                 <i class="fa-solid fa-file-signature text-5xl text-accent mb-6"></i>
                 <h3 class="text-2xl font-bold text-primary mb-4">填寫線上諮詢表單</h3>
-                <p class="text-gray-600 mb-8">點擊下方按鈕前往 Google 表單填寫您的需求，我們的出版顧問將在收到資訊後盡快為您提供專屬建議與報價。</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbjQEH9Ys4VBPaK3z-kYUlbFtWXb2uLe9IPzJoCbV3iE9lew/viewform?pli=1" target="_blank" rel="noopener noreferrer" class="inline-block w-full sm:w-auto bg-accent hover:bg-accent-light text-white font-bold text-lg px-10 py-4 rounded-lg transition shadow-md">
+                <p class="text-gray-600 text-sm sm:text-base mb-8">點擊下方按鈕前往 Google 表單填寫您的需求，我們的出版顧問將在收到資訊後盡快為您提供專屬建議與報價。</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbjQEH9Ys4VBPaK3z-kYUlbFtWXb2uLe9IPzJoCbV3iE9lew/viewform?pli=1" target="_blank" rel="noopener noreferrer" class="inline-block w-full sm:w-auto bg-accent hover:bg-accent-light text-white font-bold text-lg px-8 sm:px-12 py-4 rounded-lg transition shadow-md hover:scale-105 transform">
                     前往填寫表單
                 </a>
             </div>
@@ -391,15 +392,15 @@
                         <i class="fa-solid fa-book-open text-accent text-2xl mr-2"></i>
                         <span class="font-serif font-bold text-xl text-white tracking-wider">微讀出版</span>
                     </div>
-                    <p class="mb-4 max-w-sm">致力於幫助每一位擁有夢想的創作者，將無形的思想淬鍊成有形的經典，傳遞知識與感動。</p>
+                    <p class="mb-4 max-w-sm text-sm sm:text-base">致力於幫助每一位擁有夢想的創作者，將無形的思想淬鍊成有形的經典，傳遞知識與感動。</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="w-10 h-10 rounded-full bg-primary flex items-center justify-center hover:bg-accent hover:text-white transition">
+                        <a href="#" class="w-10 h-10 rounded-full bg-primary flex items-center justify-center hover:bg-accent hover:text-white transition" aria-label="Facebook">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-primary flex items-center justify-center hover:bg-accent hover:text-white transition">
+                        <a href="#" class="w-10 h-10 rounded-full bg-primary flex items-center justify-center hover:bg-accent hover:text-white transition" aria-label="Instagram">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-primary flex items-center justify-center hover:bg-accent hover:text-white transition">
+                        <a href="#" class="w-10 h-10 rounded-full bg-primary flex items-center justify-center hover:bg-accent hover:text-white transition" aria-label="Line">
                             <i class="fa-brands fa-line"></i>
                         </a>
                     </div>
@@ -417,23 +418,23 @@
                     <h4 class="text-white font-bold mb-4">聯絡資訊</h4>
                     <ul class="space-y-3 text-sm">
                         <li class="flex items-start">
-                            <i class="fa-solid fa-phone mt-1 mr-3 text-accent"></i> (02)7728-8625
+                            <i class="fa-solid fa-phone mt-1 mr-3 text-accent flex-shrink-0"></i> (02)7728-8625
                         </li>
                         <li class="flex items-start">
-                            <i class="fa-solid fa-envelope mt-1 mr-3 text-accent"></i> service@weread.com.tw
+                            <i class="fa-solid fa-envelope mt-1 mr-3 text-accent flex-shrink-0"></i> service@weread.com.tw
                         </li>
                         <li class="flex items-start">
-                            <i class="fa-solid fa-location-dot mt-1 mr-3 text-accent"></i> 台北市中正區重慶南路一段 100 號
+                            <i class="fa-solid fa-location-dot mt-1 mr-3 text-accent flex-shrink-0"></i> 台北市中正區重慶南路一段 100 號
                         </li>
                         <li class="flex items-start">
-                            <i class="fa-solid fa-clock mt-1 mr-3 text-accent"></i> 週一至週五 09:00 - 18:00
+                            <i class="fa-solid fa-clock mt-1 mr-3 text-accent flex-shrink-0"></i> 週一至週五 09:00 - 18:00
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+            <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-sm gap-4 text-center md:text-left">
                 <p>&copy; 2026 微讀出版. All rights reserved.</p>
-                <div class="mt-4 md:mt-0 space-x-4">
+                <div class="flex space-x-4">
                     <a href="#" class="hover:text-white transition">隱私權政策</a>
                     <a href="#" class="hover:text-white transition">服務條款</a>
                 </div>
@@ -462,14 +463,23 @@
         const mobileMenu = document.getElementById('mobile-menu');
         const mobileLinks = mobileMenu.querySelectorAll('a');
 
-        mobileBtn.addEventListener('click', () => {
+        mobileBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
             mobileMenu.classList.toggle('hidden');
         });
 
+        // Close mobile menu when clicking links
         mobileLinks.forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
             });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileMenu.contains(e.target) && e.target !== mobileBtn) {
+                mobileMenu.classList.add('hidden');
+            }
         });
 
         // FAQ Accordion logic
